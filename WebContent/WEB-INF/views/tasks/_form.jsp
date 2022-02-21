@@ -2,7 +2,7 @@
 <label for="title">タイトル</label><br />
 
 <label for="content">タスク内容</label><br />
-<input type="text" name="content" value="${message.content}" />
+<input type="text" name="content" value="${task.content}" />
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />
